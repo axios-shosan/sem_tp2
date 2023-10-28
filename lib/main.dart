@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
       routes: {
-        "gallery": (context) => const GalleryScreen()
+        "gallery": (context) => const GalleryScreen(),
       },
     );
   }
